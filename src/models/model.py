@@ -4,7 +4,7 @@ from torch import nn, optim
 
 class MyAwesomeModel(nn.Module):
     def __init__(self):
-        #Der mangler convolution layer
+        # Der mangler convolution layer
         super().__init__()
         self.fc1 = nn.Linear(784, 256)
         self.fc2 = nn.Linear(256, 128)
